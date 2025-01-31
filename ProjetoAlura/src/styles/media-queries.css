@@ -1,0 +1,7 @@
+@media screen and (max-width: 1015px) {
+    .offer__list-item{
+        grid-template-columns: 1fr 1fr; /*2 fileiras de card ao invés de 5 no celular, responsividade*/
+    }
+}
+/*o arquivo do media-queries é add no final de todos os css's carregados no html*/
+/*pra aparecer uma sugestão na pesquisa, é preciso de uma api*/
